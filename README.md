@@ -1,6 +1,6 @@
 # BlueprintShare-Fixed
-I fixed two real bugs that could cause incorrect or permanent blueprint sharing, made blueprint removal fully reliable, and tightened safety — without changing how the plugin works or what it does. 
-Original Version: https://umod.org/plugins/blueprint-share by NomadWarrior (c_creep)
+This updated version of BlueprintShare fixes two real bugs that could cause incorrect or permanent blueprint sharing, made blueprint removal fully reliable, and tightened safety — without changing how the plugin works or what it does. 
+I take no credit for it, the original Version can be found here on umod https://umod.org/plugins/blueprint-share and all credit goes to NomadWarrior (c_creep).
 
 ✅ FIXES
 1️⃣ Data file load/save bug (CRITICAL FIX)
