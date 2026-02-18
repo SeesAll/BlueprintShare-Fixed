@@ -45,7 +45,8 @@ When a clan disbands and Lose Blueprints on Leave = true:
 📌 This makes clan leave and clan disband behave consistently.
 
 ⚙️ IMPROVEMENTS (Safe Optimizations)
-3️. Blueprint removal safety
+
+3. Blueprint removal safety
 - Removal logic now:
   - Verifies blueprint ownership source
   - Ensures blueprints from other sources (self-learned, team, friend) are not removed
