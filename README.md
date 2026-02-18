@@ -3,7 +3,7 @@ This updated version of BlueprintShare fixes two real bugs that could cause inco
 I take no credit for it, the original Version can be found here on umod https://umod.org/plugins/blueprint-share and all credit goes to NomadWarrior (c_creep).
 
 ✅ FIXES
-1️⃣ Data file load/save bug (CRITICAL FIX)
+1. Data file load/save bug (CRITICAL FIX)
 ❌ Problem (original plugin)
 - The plugin saved data using the plugin Name
 - But loaded data using a hardcoded string "BlueprintShare"
@@ -22,7 +22,7 @@ That meant:
   - Blueprint removal on leave is accurate
 📌 This fix was necessary — without it, the plugin could not be trusted long-term.
 
-2️⃣ Clan disband blueprint removal (LOGIC FIX)
+2. Clan disband blueprint removal (LOGIC FIX)
 ❌ Problem (original plugin)
 When a clan disbanded:
 - The plugin deleted its database records
@@ -42,14 +42,14 @@ When a clan disbands and Lose Blueprints on Leave = true:
 📌 This makes clan leave and clan disband behave consistently.
 
 ⚙️ IMPROVEMENTS (Safe Optimizations)
-3️⃣ Blueprint removal safety
+3️. Blueprint removal safety
 - Removal logic now:
   - Verifies blueprint ownership source
   - Ensures blueprints from other sources (self-learned, team, friend) are not removed
 - Prevents accidental blueprint loss
 No gameplay change — just safer execution.
 
-4️⃣ Better internal consistency
+4️. Better internal consistency
 - Minor logic cleanup to ensure:
   - Cached targets are invalidated correctly
   - No unnecessary work is done when no one can learn a blueprint
