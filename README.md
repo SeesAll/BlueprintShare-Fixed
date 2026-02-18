@@ -2,7 +2,8 @@
 This updated version of BlueprintShare fixes two real bugs that could cause incorrect or permanent blueprint sharing, made blueprint removal fully reliable, and tightened safety — without changing how the plugin works or what it does. 
 I take no credit for it, the original Version can be found here on umod https://umod.org/plugins/blueprint-share and all credit goes to NomadWarrior (c_creep).
 
-✅ FIXES
+✅ FIX
+
 1. Data file load/save bug (CRITICAL FIX)
 ❌ Problem (original plugin)
 - The plugin saved data using the plugin Name
@@ -15,6 +16,7 @@ That meant:
   - Lose Blueprints on Leave could behave incorrectly or inconsistently
 
 ✅ Fix
+
 - Data is now saved and loaded using the exact same key
 - Guarantees:
   - Shared-blueprint tracking survives restarts
@@ -33,6 +35,7 @@ So:
 - This broke the promise of Lose Blueprints on Leave
 
 ✅ Fix
+
 When a clan disbands and Lose Blueprints on Leave = true:
 - The plugin now:
   1. Identifies which blueprints were clan-shared
