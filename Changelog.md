@@ -1,6 +1,13 @@
 # Blueprint Share - Full Changelog
 
-## v1.4.5 (Latest)
+## v1.4.6 (Latest)
+
+-   Updated OnTechTreeNodeUnlocked hook to the newer Rust-compatible signature.
+-   Added support for processing all unlocked tech tree item definitions from the hook payload.
+
+------------------------------------------------------------------------
+
+## v1.4.5
 
 ### New
 
